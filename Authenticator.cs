@@ -10,14 +10,14 @@ public class Authenticator : NetworkAuthenticator
 	private const string URL = "https://example.com/login.php";
 
 	//Input data for your auth system
-	public class AuthRequestMessage : MessageBase
+	public class AuthRequestMessage : NetworkMessage
 	{
 		public string AccountName;
 		public string Password;
 	}
 
 	//Output data from server
-	public class AuthResponseMessage : MessageBase
+	public class AuthResponseMessage : NetworkMessage
 	{
 		public int AccountId;
 		public bool Result;
