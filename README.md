@@ -1,2 +1,4 @@
-# Unity Mirror URL NetworkAuthenticatror
- I needed NetworkAuthenticator for mine Unity game. I had lots of problems with that - but now I finished it! This Authenticator contacts your web API and validates data there. Enjoy!
+# URL NetworkAuthenticator
+When I was creating my project based on Mirror networking system for Unity, I had a big problem with creating NetworkAuthenticator that validates data in the Internet.
+
+I asked many people for help, and finally I did this. I share it here, so less people in future will waste their time on finding own solution.
